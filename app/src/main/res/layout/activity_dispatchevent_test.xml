@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.test.androidtest.views.dispatch.DispatchEventFather xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <com.test.androidtest.views.dispatch.DispatchEventChildren
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="100dp">
+
+        <com.test.androidtest.views.dispatch.DispatchEventBtn
+            android:id="@+id/btn_dispatch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:text="按钮1111"/>
+
+        <com.test.androidtest.views.dispatch.DispatchEventTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文本"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"/>
+
+        <com.test.androidtest.views.dispatch.DispatchEventBtn
+            android:id="@+id/btn_dispatch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="按钮2222"/>
+
+    </com.test.androidtest.views.dispatch.DispatchEventChildren>
+
+</com.test.androidtest.views.dispatch.DispatchEventFather>
